@@ -1,0 +1,1 @@
+<h1>el resultado es {{$operaciones}}</h1>

@@ -1,0 +1,113 @@
+/*********************************
+5.1 notes Slider
+*********************************/
+
+.notes_saber_slider_container
+{
+	width: 100%;
+	height: 100%;
+}
+.notes_saber_slide
+{
+	width: 100%;
+	height: 100%;
+}
+.notes_saber_slide_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.notes_saber_slide_container
+{
+	width: 90%;
+	height: auto;
+  top: 29%;
+  background-color: rgba(255, 255, 255, 0.801);
+  margin: 0 auto;
+  border-radius: 30px;
+  text-align: center;
+}
+#text-notes-saber
+{
+  color: rgb(0, 0, 0);
+  padding-top: 25px;
+}
+.notes_saber_filtro input{
+  width: 70%;
+  height: 25px;
+  text-align: center;
+  border:none;
+}
+.save-note-saber input[type="submit"]{
+	background: red;
+	border-radius: 30px;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+  border:none;
+  margin-top: 70%;
+  margin-left: -80px;
+}
+.cancel-saber input[type="submit"]{
+	background: #26A0DA;
+	border-radius: 30px;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+  border:none;
+  margin-top: 70%;
+}
+.notes_saber_filtro{
+  margin-top:15px;
+}
+.notes_saber_box_title{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.tables-notes-saber{
+  background-color:rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 2px 0 3px rgba(0, 0, 0, 0.678) ;
+  overflow-x:auto;
+}
+.diseño-table-notes-saber{
+  width:95%;
+  margin:0 auto;
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align: center;
+}
+#principal-notes-saber{
+  border-bottom: 2px solid #26A0DA;
+  text-align: center;
+  color: black;
+}
+.diseño-table-notes-saber table td input{
+  width: 30px;
+  border: none;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+}
+#numero{
+  width: 30px;
+}
+#rendimiento select{
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+}
+.diseño-table-notes-saber table td{
+  text-align: center;
+}

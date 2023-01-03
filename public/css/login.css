@@ -1,0 +1,84 @@
+body {
+	background:url(../img/fondoBody.png);
+	background-size: cover;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+	margin: 25px auto;
+	position: relative;
+	width: 65%;
+	}
+
+ #content {
+	background: #ffffff;
+	background: linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	box-shadow: 0 1px 0 #fff inset;
+	border: 1px solid #c4c6ca;
+	margin-top: 15%;
+	position: relative;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+	width: 100%;
+	display: flex;
+}
+
+#content:after,
+#content:before {
+	background: #ffffff;
+	background: linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f9f9f9',GradientType=0 );
+	border: 1px solid #c4c6ca;
+	content: "";
+	display: block;
+	height: 100%;
+	left: -1px;
+	position: absolute;
+	width: 100%;
+}
+
+#content:after {
+	transform: rotate(2deg);
+	top: 0;
+	z-index: -1;
+}
+
+#content:before {
+	transform: rotate(-3deg);
+	top: 0;
+	z-index: -2;
+}
+
+i{
+	margin-bottom: 10px;
+	color:#a1a1a1;
+}
+
+.left {
+	box-sizing: border-box;
+	width: 50%;
+	height: auto;
+	background: rgb(255, 255, 255);
+	flex-direction: column;
+  }
+
+.left h1 {
+	color: #7E7E7E;
+	letter-spacing: -0.05em;
+	line-height: 20px;
+	margin: 55px 0 45px;
+	font-size: 30px;
+}
+
+
+.information{
+	margin-top: 20px;
+
+}
+.right {
+	width: 50%;
+	height: 400px;
+	border-radius: 0 2px 2px 0;
+	background: url(../img/fondoLogin.png) no-repeat;
+	background-size: 110%;
+  }

@@ -1,0 +1,124 @@
+
+/*********************************
+5. Home
+*********************************/
+
+.home
+{
+	width: 100%;
+	height: 100vh;
+}
+/*********************************
+5.1 admin Slider
+*********************************/
+
+.admin_slider_container
+{
+	width: 100%;
+	height: 100%;
+}
+.admin_slide
+{
+	width: 100%;
+	height: 100%;
+}
+.admin_slide_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.admin_slide_container
+{
+	width: 100%;
+	height: 100vh;
+}
+.admin_slide_content
+{
+	max-width: 80%;
+	-webkit-transform: translateY(30px);
+	-moz-transform: translateY(30px);
+	-ms-transform: translateY(30px);
+	-o-transform: translateY(30px);
+	transform: translateY(30px);
+}
+/*********************************
+6. admin Boxes
+*********************************/
+
+.admin_boxes
+{
+	width: 100%;
+	height: 0px;
+	z-index: 9;
+	padding-top: 0px;
+	top: -250px;
+
+}
+.admin_boxes_inner
+{
+	/* position: absolute; */
+	margin: 0 auto;
+	left: 0;
+	width: 90%;
+	top: -150px;
+}
+
+.admin_box
+{
+	width: 100%;
+	height: 161px;
+	background: #1a1a1a;
+	padding-left: 50px;
+	cursor: pointer;
+}
+.admin_box:hover
+{
+	background: #26A0DA;
+}
+.admin_box i
+{
+	font-size: 80px;
+	color: #26A0DA;
+}
+.admin_box i
+{
+	height: auto;
+}
+.admin_box:hover i
+{
+	color: #FFFFFF;
+}
+.admin_box_content
+{
+	padding-left: 13px;
+	padding-top: 11px;
+	margin-top: -6px;
+}
+.admin_box_title
+{
+	font-size: 24px;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin-bottom: 7px;
+}
+.admin_box_link
+{
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding-left: 3px;
+}
+.admin_box_link:hover
+{
+	color: #1a1a1a;
+}
+#row1admin{
+	top: 30px;
+}

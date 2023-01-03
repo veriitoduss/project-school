@@ -1,0 +1,128 @@
+/*********************************
+5.1 adminpgm Slider
+*********************************/
+
+.adminpgm_slider_container
+{
+	width: 100%;
+	height: 100%;
+}
+.adminpgm_slide
+{
+	width: 100%;
+	height: 100%;
+}
+.adminpgm_slide_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.adminpgm_slide_container
+{
+	width: 90%;
+	height: auto;
+  top: 29%;
+  background-color: rgba(255, 255, 255, 0.801);
+  margin: 0 auto;
+  border-radius: 30px;
+  text-align: center;
+}
+#text-adminpgm
+{
+  color: rgb(0, 0, 0);
+  padding-top: 25px;
+}
+.adminpgm_filtro input{
+  width: 70%;
+  height: 25px;
+  text-align: center;
+  border:none;
+}
+
+.adminpgm_filtro{
+  margin-top:15px;
+}
+.adminpgm_box_title{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.tables-adminpgm{
+  background-color:rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 2px 0 3px rgba(0, 0, 0, 0.678) ;
+  overflow-x:auto;
+}
+select {
+  background:white;
+  width: 70%;
+  height: 25px;
+  text-align: center;
+  border-radius: 4px;
+  outline: none;
+  color: rgb(109, 109, 109);
+  border: none;
+}
+select:hover {
+  border:1.5px solid #26A0DA;
+}
+.diseño-table-adminpgm{
+  width:90%;
+  margin:0 auto;
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align: center;
+}
+#principal{
+  border-bottom: 2px solid #26A0DA;
+  text-align: center;
+  color: black;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #dfdfdf;
+}
+.diseño-table-adminpgm table td{
+  text-align: center;
+}
+.diseño-table-adminpgm table td input{
+  width: 30px;
+  border: none;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+}
+#nombre{
+  width: 290px!important;
+  text-align: center;
+}
+#notas{
+  width: 80px;
+}
+.modificar{
+	border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  background: #26DA5B;
+	cursor: pointer;
+  border:none;
+  color: rgb(0, 0, 0);
+}
+.eliminar{
+	border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  background: red;
+	cursor: pointer;
+  border:none;
+  color: rgb(255, 255, 255);
+}
